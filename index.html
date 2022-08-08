@@ -23,29 +23,33 @@
                 <div class="input-box">
                     <label for="name">Name</label>
                     <br />
-                    <input type="text" name="name" id="name" placeholder="enter your name" />
+                    <input type="text" name="adı" id="name" placeholder="Enter Your Name" />
                 </div>
+
                 <div class="input-box">
                     <label for="age">Age</label>
                     <br />
-                    <input type="number" name="age" id="age" placeholder="age" />
+                    <input type="number" id="age" name="Age" placeholder="Age" />
                 </div>
+
                 <div class="input-box">
                     <label for="email">Email</label>
                     <br />
-                    <input type="email" name="email" id="email" placeholder="enter your mail" />
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" />
                 </div>
+
                 <div class="input-box">
                     <label for="content">Content Type</label>
                     <br />
                     <select name="content" id="dropdown">
-                        <!-- <option value="" disabled>None</option> -->
+                        <!-- <option value="" disabled >None</option> -->
                         <option value="movies">Movies</option>
-                        <option value="series" selected>Series</option>
-                        <option value="tvshows">Tv Shows</option>
+                        <option value="series">Series</option>
+                        <option value="TV_Shows">TV Shows</option>
                     </select>
                 </div>
-                <div id="input-box">
+
+                <div class="input-box" id="checkbox">
                     <label for="">Movie Type</label>
                     <br />
                     <input type="checkbox" name="movie" id="first-check" value="Comedy" />
@@ -57,7 +61,8 @@
                     <input type="checkbox" name="movie" id="third-check" value="Romance" />
                     <label for="third-check">Romance</label>
                 </div>
-                <div class="input-box">
+
+                <div class="input-box" id="radio">
                     <label for="">Gender</label>
                     <br />
                     <input type="radio" name="gender" id="first-radio" value="Male" />
@@ -69,11 +74,13 @@
                     <input type="radio" name="gender" id="third-radio" value="Other" />
                     <label for="third-radio">Other</label>
                 </div>
+
                 <div class="input-box">
                     <label for="feedback">Feedback</label>
                     <br />
                     <textarea name="feedback" id="feedback" placeholder="any comment"></textarea>
                 </div>
+
                 <div class="form-submit">
                     <button type="submit" id="form-button">Send</button>
                 </div>
